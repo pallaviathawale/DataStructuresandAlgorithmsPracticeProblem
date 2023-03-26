@@ -19,14 +19,14 @@ namespace AlgorithamPrograms
 
             for (int j = 0; j < array.Length; j++)
             {
-                for (int i = 0; i < array.Length - 1; i++)
+                for (int i = 0; i < array.Length - 1; i++)  //i=3 
                 {
-                    //elements in arreay are: 5, 2, 6, 
+                    //elements in arreay are: 5, 2, 6, 0 
                     if (array[i] > array[i + 1])
                     {
                         temp = array[i + 1]; //temp=2
                         array[i + 1] = array[i]; //  5 2 6
-                        array[i] = temp; // 2 5 6
+                        array[i] = temp; // 2 5 0 6    2 0 5 6    0 2 5 6 
                     }
                 }
             }
