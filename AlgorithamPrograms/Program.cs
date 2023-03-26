@@ -9,12 +9,8 @@
            //foreach (int i in array)
            //   Console.WriteLine(i + " ");
 
-            //InsertionSort insertionSort = new InsertionSort();
-            //insertionSort.doInsertionSort();
-            PrimeNumber numbers = new PrimeNumber();
-            numbers.Prime();
-
-
+            AnagramDetection anagramDetection = new AnagramDetection();
+            anagramDetection.CheckAnagram();
 
         }
     }
